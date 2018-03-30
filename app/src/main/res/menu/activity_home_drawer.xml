@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Budget" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Saving" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Credit" />
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Interest" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Debt" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@android:drawable/sym_action_call"
+            android:title="Basic expence" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Logout" />
+    </group>
+
+</menu>
